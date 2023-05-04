@@ -93,7 +93,7 @@ then
     git push
     git status
     rm -r /usr/local/bin
-    cp -r ~/Dev/bin /usr/local  
+    sudo cp -r ~/Dev/bin /usr/local  
 else
  echo "Comando inválido :-\.Digite o número de um dos projetos acima ;-)."
 fi
