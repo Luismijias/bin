@@ -87,7 +87,13 @@ then
     echo "Ótimo voce escolheu o cluar que é o projeto número: $numero"
 elif [ $numero == "14" ] 
 then
-    echo "Ótimo voce escolheu o cluar que é o projeto número: $numero"
+    cd ~/Dev/bin
+    git add .
+    git commit -m "automatic commit"
+    git push
+    git status
+    rm -r /usr/local/bin
+    cp ~/Dev/bin /usr/local  
 else
  echo "Comando inválido :-\.Digite o número de um dos projetos acima ;-)."
 fi

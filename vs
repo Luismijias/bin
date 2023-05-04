@@ -69,7 +69,7 @@ elif [ $numero == "9" ]
 then 
     echo "Ótimo voce escolheu o cluar que é o projeto número: $numero"
 elif [ $numero == "10" ]
-then 
+then
     cd
     cd Dev/udemy
     code .
@@ -84,7 +84,7 @@ then
     echo "Ótimo voce escolheu o cluar que é o projeto número: $numero"
 elif [ $numero == "14" ] 
 then
-    cd /usr/local/bin 
+    cd ~/Dev/bin
     code .
 else
  echo "Comando inválido :-\.Digite o número de um dos projetos acima ;-)."
