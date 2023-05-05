@@ -13,12 +13,12 @@ echo "        **       ___.....-----''-----/        ** "
 echo "        **        \  Nino_Script    /         ** "
 echo "        **   ~~-~^~^~~'~~^^~^~-'^~^~^'~-~^~^  ** "
 echo "        **   ~-^'~^-~^~-^~^'^~^-^~^'^~^-~^    ** "
-echo "        **           [0] cluar                ** "
-echo "        **           [1] helipacity           ** "
-echo "        **           [2] netbase              ** "
-echo "        **           [3] cluarnino            ** "               
+echo "        **           [0]                      ** "
+echo "        **           [1]                      ** "
+echo "        **           [2]                      ** "
+echo "        **           [3]                      ** "               
 echo "        **           [4]                      ** "
-echo "        **         ► [5] fullstack            ** "
+echo "        **         ► [5]                      ** "
 echo "        **           [6]                      ** "
 echo "        **           [7]                      ** "
 echo "        **           [8]                      ** "
@@ -27,7 +27,7 @@ echo "        **          [10] Udemy                ** "
 echo "        **          [11] Bootcamp Netuno      ** "
 echo "        **          [12]                      ** "
 echo "        **          [13]                      ** "
-echo "        **          [14]                      ** "
+echo "        **          [14] Script               ** "
 echo "        **                                    ** "
 echo "        **      CTRL + C ==>SAIR              ** "
 echo "        **                                    ** "
@@ -92,8 +92,6 @@ then
     git commit -m "automatic commit"
     git push
     git status
-    sudo rm -r /usr/local/bin
-    sudo cp -r ~/Dev/bin /usr/local  
 else
  echo "Comando inválido :-\.Digite o número de um dos projetos acima ;-)."
 fi
