@@ -78,6 +78,7 @@ then
 elif [ $numero == "11" ] 
 then
     gnome-terminal -- bash -c "firefox https://dev.netuno.org/formation/3afd971f-dace-4dd2-adb2-1382d5cac494; exec bash"
+    
     ssh luismijias@bootcamp.dev.netuno.org -p 20122    
 elif [ $numero == "12" ]
 then 
@@ -97,6 +98,7 @@ fi
 #>>>Parte do cliente(pc)
 #vídeo auxilio https://www.youtube.com/watch?v=wSOAdqnYjeY
 #Obs: dentro da pasta .ssh --> scp -P 20122 id_rsa.pub luismijias@135.181.217.178:~/.ssh/authorized_keys
+#caminho reverso do servidor para a maquina :scp -P 20122 luismijias@135.181.217.178:~/.ssh/id_ed25519 id_ed25519
 #>>>Parte do servidor
 # crie o diretório --> mkdir .ssh
 #crie o arquivo dentro da pastar .ssh --> touch authorized_keys
