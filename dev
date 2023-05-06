@@ -78,7 +78,7 @@ then
 elif [ $numero == "11" ] 
 then
     gnome-terminal -- bash -c "firefox https://dev.netuno.org/formation/3afd971f-dace-4dd2-adb2-1382d5cac494; exec bash"
-    gnome-terminal -- bash -c "firefox http://luismijias.bootcamp.dev.netuno.org:20180/"
+    gnome-terminal -- bash -c "firefox http://luismijias.bootcamp.dev.netuno.org:20180; exec bash"
     ssh luismijias@bootcamp.dev.netuno.org -p 20122    
 elif [ $numero == "12" ]
 then 
