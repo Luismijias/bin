@@ -87,7 +87,7 @@ then
     echo "Ótimo voce escolheu o cluar que é o projeto número: $numero"
 elif [ $numero == "14" ] 
 then
-    cd ~/Dev/scripts
+    cd ~/Dev/bin
     git add .
     git commit -m "automatic commit"
     git push
