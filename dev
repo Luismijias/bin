@@ -27,7 +27,7 @@ echo "        **          [10] Udemy                ** "
 echo "        **          [11] Bootcamp Netuno      ** "
 echo "        **          [12]                      ** "
 echo "        **          [13]                      ** "
-echo "        **          [14] Scripts               ** "
+echo "        **          [14]                      ** "
 echo "        **                                    ** "
 echo "        **      CTRL + C ==>SAIR              ** "
 echo "        **                                    ** "
@@ -88,8 +88,7 @@ then
     echo "Ótimo voce escolheu o cluar que é o projeto número: $numero"
 elif [ $numero == "14" ] 
 then
-    cd /usr/local/bin 
-    code .
+    echo "Ótimo voce escolheu o cluar que é o projeto número: $numero"
 else
  echo "Comando inválido :-\.Digite o número de um dos projetos acima ;-)."
 fi
