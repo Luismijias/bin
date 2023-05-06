@@ -13,12 +13,12 @@ echo "        **       ___.....-----''-----/        ** "
 echo "        **        \  Nino_Script    /         ** "
 echo "        **   ~~-~^~^~~'~~^^~^~-'^~^~^'~-~^~^  ** "
 echo "        **   ~-^'~^-~^~-^~^'^~^-^~^'^~^-~^    ** "
-echo "        **           [0] cluar                ** "
-echo "        **           [1] helipacity           ** "
-echo "        **           [2] netbase              ** "
-echo "        **           [3] cluarnino            ** "               
+echo "        **           [0]                      ** "
+echo "        **           [1]                      ** "
+echo "        **           [2]                      ** "
+echo "        **           [3]                      ** "               
 echo "        **           [4]                      ** "
-echo "        **         ► [5] fullstack            ** "
+echo "        **         ► [5]                      ** "
 echo "        **           [6]                      ** "
 echo "        **           [7]                      ** "
 echo "        **           [8]                      ** "
@@ -70,8 +70,8 @@ then
     echo "Ótimo voce escolheu o cluar que é o projeto número: $numero"
 elif [ $numero == "10" ]
 then
-    cd
-    cd Dev/udemy
+    
+    cd ~/Dev/udemy
     code .
 elif [ $numero == "11" ] 
 then
