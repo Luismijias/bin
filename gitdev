@@ -101,4 +101,5 @@ fi
 # https://www.freecodecamp.org/portuguese/news/como-resolver-o-problema-de-o-git-pedir-sempre-as-credenciais-do-usuario/
 # Clonar o repositório dentro de uma pasta Dev -->sudo git clone https://github.com/Luismijias/bin.git                            
 # remover a pasta bin ->> sudo rm -r /usr/local/bin 
-# crir um link da pasta bin que acabou de puxar do github no /usr/local/bin ->> sudo ln -s ~/Dev/bin /usr/local/ 
+# crir um link da pasta bin que acabou de puxar do github no /usr/bin ->> 
+sudo ln -s ~/Dev/bin/gitdev /usr/bin | sudo ln -s ~Dev/bin/vs /usr/bin | sudo ln -s ~/Dev/bin/dev /usr/bin
