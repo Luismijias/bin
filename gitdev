@@ -102,4 +102,4 @@ fi
 # Clonar o repositório dentro de uma pasta Dev -->sudo git clone https://github.com/Luismijias/bin.git                            
 # remover a pasta bin ->> sudo rm -r /usr/local/bin 
 # crir um link da pasta bin que acabou de puxar do github no /usr/bin ->> 
-sudo ln -s ~/Dev/bin/gitdev /usr/bin | sudo ln -s ~Dev/bin/vs /usr/bin | sudo ln -s ~/Dev/bin/dev /usr/bin
+sudo ln -s ~/Dev/bin/gitdev /usr/bin | sudo ln -s ~/Dev/bin/vs /usr/bin | sudo ln -s ~/Dev/bin/dev /usr/bin
